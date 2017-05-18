@@ -1,0 +1,145 @@
+.heading{margin-left: 215px;font-size: 30px}
+/* ACCORDION -------------------------------------------------*/
+.accordion-trigger,
+.toggle-trigger {    margin: 10px 170px 0px 200px;
+  line-height: 30px;
+  font-size: 14px;
+  border-top: 1px solid #1424a2;
+  border-left: 1px solid #585246;
+  border-right: 1px solid #585246;
+  border-bottom: 1px solid #373125;
+}
+.accordion-trigger {
+  text-decoration: none;
+  color: floralwhite;
+  font-weight: bold;
+  padding: 5px 10px;
+  cursor: pointer;
+  background: #152a6f;
+  margin: 50 auto;
+    margin-bottom: 10px;
+}
+.accordion-trigger.active {
+  border-bottom: 1px solid #03104a;
+        margin: 10px 170px 0px 200px;
+    background-color: #193172;
+}
+.accordion-trigger:hover {
+  background: #0e2862;
+        margin: 10px 170px 10px 200px;
+}
+.accordion-container {
+    margin: 10px 170px 10px 200px;
+  padding: 5px 10px;
+  border-bottom: 1px solid #585246;
+  border-right: 1px solid #585246;
+  border-left: 1px solid #585246;
+}
+h2{margin-left: 180px}
+/* TOGGLE -------------------------------------------------*/
+.toggle-trigger {
+  text-decoration: none;
+  color: #f3e4c8;
+  font-weight: bold;
+  cursor: pointer;
+  overflow: hidden;
+  background-color: #043764;
+  padding: 5px 5px 5px 10px;
+    text-align: center
+}
+.toggle-trigger i {
+  display: block;
+  float: left;
+  width: 31px;
+  height: 31px;
+  margin-right: 10px;
+  background: url(../img/toggle.png) no-repeat 0px 0px;
+}
+
+.toggle-trigger.active i {
+  background-position: 0px -31px;
+}
+.toggle-trigger:hover {
+  background-color: #141474;
+}
+.toggle-container {
+  margin-bottom: 0px;
+  padding: 5px 215px;
+ 
+}
+/* TABS -------------------------------------------------*/
+/* root element for tabs  */
+.tabs {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0px;
+  height: 33px;
+}
+body.home .tabs {
+  padding: 0px 30px;
+}
+/* single tab */
+ul.tabs li {
+  display: block;
+  float: left;
+  text-indent: 0;
+  padding: 0;
+  margin: 2px 5px 0px 0px !important;
+  list-style-image: none !important;
+  border-top: 1px solid #585246;
+  border-right: 1px solid #585246;
+  border-left: 1px solid #585246;
+}
+/* link inside the tab. uses a background image */
+ul.tabs a {
+  display: block;
+  font-size: 13px;
+  font-weight: bold;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  padding: 0px 0px 0px 10px;
+  position: relative;
+  top: 0px;
+}
+ul.tabs a span {
+  display: block;
+  height: 100%;
+  padding-right: 10px;
+}
+ul.tabs a {
+  text-decoration: none;
+  color: #444444;
+  background: #f3e4c8;
+}
+ul.tabs a:active {
+  outline: none;
+}
+/* when mouse enters the tab move the background image */
+ul.tabs li:hover a,
+ul.tabs a.current {
+  background: #f3f3f3;
+  color: #444;
+  border-bottom: 1px solid #f1f1f1;
+}
+/* active tab uses a class name "current". its highlight is also done by moving the background image. */
+ul.tabs a.current,
+ul.tabs a.current:hover,
+ul.tabs li.current a {
+  cursor: default !important;
+  color: #444 !important;
+  display: block;
+  text-decoration: none;
+}
+/* initially all panes are hidden */.panes .pane {
+  display: none;
+}
+.panes > div {
+  display: none;
+  min-height: 200px;
+  border: 1px solid #585246;
+  padding: 15px;
+  background: #f1f1f1;
+}
+.mytab{margin-left: 100px;width: 960px;margin-bottom: 10px}

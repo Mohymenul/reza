@@ -1,0 +1,70 @@
+
+/* GENERAL ------------------------------------------------------------*/
+.cf:after,
+.cf:before {
+  content: "";
+  display: table;
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  zoom: 1;
+}
+.wrapper {
+  margin: 0 auto;
+  width: 940px;
+  position: relative;
+}
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5em;
+  background: #95c9c3 url(../img/grunge.png) repeat-x center 150px;
+}
+body p {
+  margin-bottom: 21px;
+}
+#main h1,
+#main h2,
+#main h3,
+#main h4,
+#main h5,
+#main h6 {
+  font-family: mensch;
+  line-height: 1.3em;
+    margin-left: 5px;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 36px;
+}
+h3 {
+  font-size: 30px;
+}
+h4 {
+  font-size: 24px;
+}
+h5 {
+  font-size: 18px;
+}
+h6 {
+  font-size: 14px;
+}
+/* PAGE CONTENT ----------------------------------------------------*/.page-content {
+  position: relative;
+  background: #f3e4c8;
+  color: #585246;
+  padding: 50px 30px 60px 30px;
+  box-shadow: 3px 3px 0 0 rgba(0, 0, 0, 0.1);
+}
+.page-content .heading {
+  border-bottom: 5px solid #585246;
+  margin-bottom: 30px;
+  padding-bottom: 10px;
+}
+.one-half{
+    float: left;width: 400px;margin-right: 100px;margin-left: 100px
+}
